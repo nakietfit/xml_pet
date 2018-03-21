@@ -10,8 +10,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <script src="view.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
 </head>
-<body onload="main()">
+<body onload="main()" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -26,12 +27,40 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#tham-quan">THAM QUAN</a></li>
-                    <li><a href="#thu ngan">THU NGÂN</a></li>
-                    <li><a href="#quan-ly">QUẢN LÝ</a></li>
+                    <li><a href="#tham-quan">Tham quan</a></li>
+                    <li><a href="#thu-ngan">Thu ngân</a></li>
+                    <li><a href="#quan-ly">Quản lý</a></li>
                 </ul>
             </div>
         </div>
-    </nav>    
+    </nav>
+    
+    <div id="menu">
+        <div class="container text-center">
+            <svg height="2" width="960">                
+                <path class="line-path" d="m 40 0 l 880 0" />               
+            </svg>
+
+            <h1>CÀ PHÊ</h1>
+
+            <svg height="2" width="960">                
+                <path class="line-path" d="m 40 0 l 880 0" />               
+            </svg>
+
+            <div id="cafe"></div>
+
+            <svg height="2" width="960">                
+                <path class="line-path" d="m 40 0 l 880 0" />               
+            </svg>
+    
+            <h1>MÓN ĂN</h1>
+    
+            <svg height="2" width="960">                
+                <path class="line-path" d="m 40 0 l 880 0" />               
+            </svg>
+
+            <div id="food"></div>
+        </div>
+    </div>
 </body>
 </html>
